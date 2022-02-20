@@ -275,7 +275,11 @@ p {
     margin-right: auto;
     width: 1200px;
 }
+.container-headlink {
+    display: flex;
+}
 .header-link {
+    margin-right: 93px;
     width: 145px;
     height: 21px;
 }
@@ -287,10 +291,16 @@ p {
     display: block;
     margin-right: 50px;
 }
-.header-wraper {
-display: flex;
+.nav-item:last-child {
+    margin-right: 0px;
 }
-
+.header-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.header-item {
+    margin-right: 50px;
+}
 .container-decision 
 {   padding-top:200px;
     padding-bottom: 280px;
@@ -365,7 +375,7 @@ padding-bottom: 94px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
-/* container-footer */
+/* container-footer html portfolio*/
 .container-footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -389,6 +399,8 @@ display: block;
 padding: 0px;
 }
 /* portfolio blocks*/
+
+
 .container-button {
     margin-left: auto;
     margin-right: auto;
@@ -402,25 +414,24 @@ padding: 0px;
     display: block;
     margin-right: 8px;
     margin-bottom: 50px;
+    padding: 6px 22px;
 }
 .main-image{
     display: block;
 }
-.container-main {
-    min-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: space-between;
-    align-content: center;
-}
 .main-content {
     display: flex;
-    flex-wrap: wrap;
-    background-color: #2196F3;
+    justify-content: center;
+    background-color: hsl(207, 90%, 54%);
+    padding: 94px 215px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 .main-item {
+    display: block;
     margin-right: 30px;
     width: 370px;
     margin-left: 0px ;
