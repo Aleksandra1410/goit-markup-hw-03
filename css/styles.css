@@ -377,6 +377,9 @@ padding-bottom: 94px;
     margin-top: 20px;
 }
 .footer-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
     display: block;
 }
 .footer-item {
