@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <!--сначала нормализатор-->   
+ <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <!--без маркеров-->
     <style>
         li {
@@ -38,14 +40,17 @@
    <!--Main content-->
    <main>
        <section class="main">
+           <div class="container-button">
            <h2 hidden>Main content</h2>
-            <ul class="button-list">
+            <ul class="button-list" >
                 <li><button class="button-item" type="button">Все</button></li>
                 <li><button class="button-item" type="button">Веб-сайты</button></li>
                 <li><button class="button-item" type="button">Приложения</button></li>
                 <li><button class="button-item" type="button">Дизайн</button></li>
                 <li><button class="button-item" type="button">Маркетинг</button></li>  
             </ul>
+        </div>
+        <div class="container-main">
            <ul class="main-content">
                <li class="main-item">
                    <img class="main-image" src="./images/technokriak.jpg" alt="Технокряк" width="370" height="294">
@@ -93,6 +98,7 @@
                 <p class="main-text" lang="ru">Приложение</p>
             </li>
            </ul>
+           </div>
     </section>       
 
    </main>

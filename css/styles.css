@@ -251,3 +251,180 @@ color:var(--color-text);
  }
  .link-current:hover
  .link-current:focus
+
+ /* контейнери */
+ /* container-header */
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+.container-header {
+    padding-top:24px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.header-link {
+    width: 145px;
+    height: 21px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    display: block;
+    margin-right: 50px;
+}
+.header-wraper {
+display: flex;
+}
+
+.container-decision 
+{   padding-top:200px;
+    padding-bottom: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.efectdecision-title {
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+button {
+    min-width: 200px;
+    padding: 10px 32px;
+}
+.efectdecision-title {
+    width: 696px;
+    height: 120px;
+}
+.container-quality {
+    width: 1200px;    
+margin-right: auto;
+margin-left: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.quality-list {
+    display: flex;
+}
+.quality-item {
+    margin-right: 30px;
+}
+.margin-subtitle {
+margin-bottom: 10px;
+}
+.quality-text {
+    width: 270px;
+    height: 75px;
+}
+
+.container-whatwedo 
+{    width: 1200px;    
+    margin-right: auto;
+    margin-left: auto;
+    display: flexbox;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.whatwedo-list {
+    display: flex;
+}
+.whatwedo-item {
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.container-comand 
+{
+width: 1200px;    
+margin-right: auto;
+margin-left: auto;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.comand-list {
+    display: flex;
+}
+.comand-item {
+    margin-right: 30px;
+}
+.comand-subtitle {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/* container-footer */
+.container-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px;
+}
+
+.footer-address { 
+    display: block;
+    margin-top: 20px;
+}
+.footer-list {
+    display: block;
+}
+.footer-item {
+    margin-top: 9px;    
+margin-bottom: 9px;
+display: block;
+padding: 0px;
+}
+/* portfolio blocks*/
+.container-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.button-list {
+    display: flex;
+}
+.button-item {
+    display: block;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+.main-image{
+    display: block;
+}
+.container-main {
+    min-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    align-content: center;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2196F3;
+}
+.main-item {
+    margin-right: 30px;
+    width: 370px;
+    margin-left: 0px ;
+}
+.main-item:nth-child(3n) {
+    margin-right: 0px;
+}
+
+
+
