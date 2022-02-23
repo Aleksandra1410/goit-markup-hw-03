@@ -279,10 +279,9 @@ p {
     display: flex;
 }
 .header-link {
+    display: flex;
+    align-items: center;
     margin-right: 93px;
-    width: 145px;
-    height: 21px;
-    text-align: center;
 }
 .nav-list {
     display: flex;
@@ -302,9 +301,10 @@ p {
 .header-item:not(:last-child) {
     margin-right: 50px;
 }
-.container-decision 
+/* Эффективные решения */
+.efectdecision 
 {   padding-top:200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -321,7 +321,8 @@ button {
     width: 696px;
     height: 120px;
 }
-.container-quality {
+/* Качества */
+.quality {
     width: 1200px;    
 margin-right: auto;
 margin-left: auto;
@@ -341,30 +342,32 @@ margin-bottom: 10px;
     width: 270px;
     height: 75px;
 }
-
-.container-whatwedo 
+/* Чем мы занимаемся */
+.whatwedo 
 {    width: 1200px;    
     margin-right: auto;
     margin-left: auto;
-    display: flexbox;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    display: flex;
+    padding-bottom: 94px;    
 }
-
+.whatwedo {
+    padding-bottom: 94px;
+    }
+.secondtitle {
+    margin-bottom: 50px;
+}
 .whatwedo-list {
     display: flex;
 }
 .whatwedo-item {
     margin-right: 30px;
-    margin-top: 50px;
 }
+/* Наша команда */
 .container-comand 
 {
 width: 1200px;    
 margin-right: auto;
 margin-left: auto;
-padding-top: 94px;
-padding-bottom: 94px;
 }
 .comand-list {
     display: flex;
@@ -383,30 +386,28 @@ padding-bottom: 94px;
     margin-right: auto;
     margin-left: auto;
 }
-
-.footer-address { 
-    display: block;
+.footer-addresstext {
     margin-top: 20px;
+    margin-bottom: 9px;
 }
 .footer-list {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    display: block;
+    display: block;  
+    margin-bottom: 9px;
 }
-.footer-item {
-    margin-top: 9px;    
-margin-bottom: 9px;
-display: block;
-padding: 0px;
+
 }
 /* portfolio blocks*/
 
 
-.container {
+.main {
     width: 1230px;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 95px;
     padding-bottom: 95px;
     border: 1px;
