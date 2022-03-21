@@ -138,6 +138,15 @@ letter-spacing: 0.03em;
 text-align: center;
 color:var(--primary-color) ;
 }
+.secondtitle-comand {
+        font-family: var(--main-font);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color:var(--primary-color) ;
+}
 .comand-subtitle {
 font-family:var(--main-font);
 font-size: 16px;
@@ -221,6 +230,12 @@ color: var(--primary-color);
 background-color: #F5F4FA;
 }
 .button-first {
+font-family: var(--main-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62;
+letter-spacing: 0.03em;
+text-align: center;
     color: var(--primary-color);
     background-color: #F5F4FA;
 }
@@ -360,6 +375,9 @@ margin-bottom: 10px;
 .secondtitle {
     margin-bottom: 50px;
 }
+.secondtitle-comand {
+    padding-top:94px;
+}
 .whatwedo-list {
     display: flex;
 }
@@ -379,9 +397,9 @@ margin-left: auto;
 .comand-item {
     margin-right: 30px;
 }
-.comand-subtitle {
-    margin-top: 30px;
-    margin-bottom: 10px;
+.comand-general {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /* container-footer html portfolio*/
 .container-footer {
@@ -404,10 +422,7 @@ margin-left: auto;
 
 }
 /* portfolio blocks*/
-
-
-.container {
-    
+.container {  
 }
 .main {
     width: 1230px;
@@ -416,34 +431,16 @@ margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
     padding-top: 94px;
-    padding-bottom: 94px;
-    
+    padding-bottom: 94px;   
 }
 .button-list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
-.button-list-top {
-    margin-right: 8px;
-    margin-bottom: 34px;
-    padding: 0px 15px;
-    margin-right: 8px;
-}
-.button-first {
-min-width: 73px;
-border-radius: 4px;
-    border: none;   
-}
 .button-list-top:last-child {
 margin-right: 0px;
 }
-.button-item {
-    padding: 6px 22px;
-    border-radius: 4px;
-    border: none;   
-}
-
 .main-content {
     display: flex;
     flex-wrap: wrap;
@@ -468,5 +465,23 @@ margin-right: 0px;
 .main-text:not(:last-child) {
     margin-top:4px;
 }
-
+.button-item {
+    border-radius: 4px;
+    border: none;
+    margin-right: 8px;  
+}
+.button-first {
+    min-width: 73px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 8px;       
+    }
+.button-item:last-child {
+        margin-right: 8px;
+        }
+          /*Начертание лінії  */
+.container-header {
+    border-bottom: 1px solid;
+    color: #ececec;
+} 
 
